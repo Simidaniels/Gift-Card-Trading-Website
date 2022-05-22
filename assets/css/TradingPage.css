@@ -1,0 +1,246 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(0, 13, 12);
+    margin: 0%;
+}
+.main
+{
+    width: 100%;
+    height: 109vh;
+    background-color: #fff;
+    padding: 0px;
+    text-align: center;
+
+}
+.dialog
+{
+    color: red;
+    background-color: rgb(0, 13, 12);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0%;
+}
+
+.dialog span
+{
+    color: green;
+}
+.header
+{
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 35px;
+    padding-left: 20px;
+    margin-top: 1px;
+    background-color: rgb(0, 13, 12);
+    color: #fff;
+    padding: 10px;
+   
+}
+.main h2
+{
+    background-color: aqua;
+    padding: 20px;
+
+}
+.main h3
+{
+    color: aqua;
+    background-color: rgb(0, 13, 12);
+    padding: 12px;
+    line-height: 30px;
+    letter-spacing: 2px;
+
+
+}
+.dialog .menu
+{
+    width: 100px;
+    float: right;
+    display: inline;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+
+div a h1
+{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding-left: 20px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+
+nav li
+{
+    list-style: none;
+    text-align: right;
+}
+nav a
+{
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 5px;
+    color: aqua;
+}
+
+
+
+
+
+.content
+{
+    text-align: center;
+    padding: 20px;
+}
+.content input
+{
+    width: 240px;
+    height: 25px;
+    font-size: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+.content label
+{
+    margin-top: 30px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    letter-spacing: 2px;
+    width: 250px;
+    height: 25px;
+    display: inline-block;
+
+}
+.content select
+{
+    margin-top: 30px;
+    width: 240px;
+    height: 25px;
+    padding: 4px;
+    border-radius: 10px;
+
+}
+
+
+
+
+.content option
+{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+.content h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.content .cn
+{
+    width: 145px;
+    height: 35px;
+    background: rgb(0, 13, 12);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s ease;
+    margin: 20px;
+
+}
+.content .cn a
+{
+    text-decoration: none;
+    color: aqua;
+    transition: .3 ease;
+    font-weight: bold;
+}
+
+.form
+{
+    background-color: rgb(3, 26, 26);
+    text-align: center;
+}
+.form h3
+{
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(3, 26, 26);;
+}
+
+
+
+.form input
+{
+    width: 240px;
+    height: 28px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+ input:focus
+{
+    outline: none;
+}
+::placeholder
+{
+    color: black;
+    font-family: Arial;
+    text-align: center;
+}
+
+
+
+
+.btnn
+{
+    width: 90px;
+    height: 40px;
+    background: aqua;
+    border: none;
+    margin-top: 6px;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.8s ease;
+}
+.btnn:hover
+{
+    background: #fff;
+}
+.btnn a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
