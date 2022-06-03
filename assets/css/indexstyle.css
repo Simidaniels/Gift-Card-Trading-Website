@@ -189,8 +189,8 @@
     transition: 0.8s ease-in-out;
 }
 .memo{ 
-    margin-left: 320px;
     letter-spacing: 1.5px;
+    text-align: center;
 }
 .memo ul{
     padding-top: 12px;
