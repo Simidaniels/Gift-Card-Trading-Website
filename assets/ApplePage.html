@@ -1,76 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <title>New Web Project Apple Gift Card Page</title>
-    <link rel="stylesheet" href="./css/tradingstyle.css">
-</head>
-
-        <body>
-
-            <main class="main">
-
-                <div class="header">
-
-                    <div class="dialog">
-
-                        <marquee behavior="scroll" direction="left" scrollamount="10">Latest Price Updates on FX USD=560ngn  
-                         CAD=680ngn <span>JPY=450ngn</marquee>   
-
-                    </div>
-
-                        <div class="logo">   
-
-                            <a><h1>Gift Card Trading Hub</h1></a>
-                        </div>
-
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href='../index.html'>Home</a>
-                                    <a href='./AboutUs.html'>About Us</a>
-                                    <a href='./ContactUs.html'>Contact Us</a>
-                                </li>
-                            </ul>
-                        </nav>
-
+        <meta charset="UTF-8">
+        <title>New Web Project Apple Gift Card Page</title>
+        <link rel="stylesheet" href="./css/tradingstyle.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <div class="moves">
+                    <marquee behavior="scroll" 
+                            direction="left" scrollamount="10">
+                                Latest Price Updates on FX Exchange markets
+                                    <a href="#">USD=560ngn</a>
+                                    <a href="#">CAD=680ngn</a>
+                                    <a href="#">JPY=450ngn</a>            
+                    </marquee>
                 </div>
 
-                        <h2>
-                            Kindly trade your apple gift card here at cheap rates.
-                        </h2>
+                <div class="logo">
+                    Gift Card Trading Hub   
+                </div>
 
-                            <h3>
-                                Paste all your valid Apple Gift Card to redeem with direct<br>
-                                into your bank accounts.<br>
-                                Terms And conditions Apply.
-                            </h3>
+                <nav id="MenuItems" class="menu">
+                    <ul>
+                        <li><a href='../index.html'>Home</a></li>
+                        <li><a href='./AboutUs.html'>About Us</a></li>
+                        <li><a href='./ContactUs.html'>Contact Us</a></li>
+                    </ul>
+                </nav>
 
-                <form class="content"> 
+                <div class="search">
+                    <input class="srch" type="search" name="" placeholder="text">
+                    <a href="#"><button class="btn">Search</button></a>
+                </div>
+                
+            </div>
 
-                    <section>
-                        <label for="valid Apple Code">Apple Code:</label>
+                <div class="content">
+                    <h2>Kindly trade your apple gift card here at cheap rates.</h2>
+                </div>
 
-                            <input id="address" name="address" autocomplete="address" 
-                            inputmode="numeric" maxlength="40" required></input>
-                    
+                <div class="main-page">
+
+                    <div id="section" class="section">
+
+                        <label for="valid Apple Code" class="port">Apple card code:</label>
+                            <input id="address" name="address" maxlength="16" 
+                                inputmode="alphanumeric" placeholder="Enter here" required />
+
                             <br>
                 
-                        <label for="courrency">Currency:</label>
-
+                        <label for="courrency" class="port">Currency:</label>
                             <select id="currency" name="choose currency" autocomplete="country" 
                                 enterkeyhint="done" required>
-                                <option selected value="SPACER"></option>
+                                <option selected value="SPACER">
                                 <option value="NG">AUD</option>
                                 <option value="NG">CAD</option>
                                 <option value="NG">EUR</option>
+                                <option value="NG">JPY</option>
                                 <option value="NG">USD</option>
                             </select>
 
                             <br>
                 
-                        <label for="price action">Price:</label>
-
+                        <label for="price action" class="port">Price:</label>
                             <select id="currency" name="choose currency" autocomplete="country" 
                                 enterkeyhint="done" required>
                                 <option selected value="SPACER"></option>
@@ -91,91 +85,147 @@
                                 <option value="NG">$900</option>
                                 <option value="NG">$1000</option>
                             </select>
-                        
+
                             <br>
 
-                        <label for="price action">Amount Deposit:</label>
-
+                        <label for="price action" class="port">Amount Deposit:</label>
                             <select id="currency" name="choose currency" autocomplete="country" 
                                 enterkeyhint="done" required>
-
                                     <option selected value="SPACER"></option>
                                     <option value="NG">AUTO</option>
-
                             </select>
 
-                    </section>
+                            <div class="loader"></div>
 
-                            <h1>Bank Details</h1>
+                            <div class="cn">
+                                <h2>Bank Transaction Details</h2>
+                            </div>
 
-                    <section>
+                            <label for="country/Region">Country/Region:</label>
+                                <select id="country" name="choose country" autocomplete="country" 
+                                    enterkeyhint="done" required>
+                                        <option selected value="SPACER"></option>
+                                        <option value="NG">NIGERIA</option>
+                                        <option value="NG">USA</option>
+                                        <option value="NG">UK</option>
+                                        <option value="NG">CANADA</option>
+                                </select>
 
-                        <label for="country/Region">Country/Region:</label>
-                        
-                            <select id="country" name="choose country" autocomplete="country" 
-                                enterkeyhint="done" required>
-
-                                <option selected value="SPACER"></option>
-                                <option value="NG">NIGERIA</option>
-                                <option value="NG">USA</option>
-                                <option value="NG">UK</option>
-                                <option value="NG">CANADA</option>
-
-                            </select>
-                     
                                 <br>
 
-                        <label for="banks">Select Your Bank:</label>
-
-                        <select id="banks" name="choose bank" autocomplete="bank"
-                        enterkeyhint="done" required>
-
-                            <option selected value="BANKS"></option>
-                            <option value="ACB">ACCESS BANK</option>
-                            <option value="FIB">FIDELITY BANK</option>
-                            <option value="FCMB">FIRST CITY MONUMENT BANK</option>
-                            <option value="FBN">FIRST BANK</option>
-                            <option value="GTB">GUARANTEE TRUST BANK</option>
-                            <option value="UBN">UNION BANK</option>
-                            <option value="UBA">UNITED BANK OF AFRICA</option>
-                            <option value="ZNB">ZENITH BANK</option>
-                            <option value="EBN">ECOBANK OF NIGERIA</option>
-                            <option value="IBTC">STAMBIC IBTC BANK</option>
-                            <option value="SBP">STERLING BANK</option>
-                            <option value="WBP">WEMA BANK</option>
-                            <option value="KMB">KUDA BANK</option>
-                        </select> 
+                            <label for="banks">Select Your Bank:</label>
+                                <select id="banks" name="choose bank" autocomplete="bank"
+                                    enterkeyhint="done" required>
+                                        <option selected value="BANKS"></option>
+                                        <option value="ACB">ACCESS BANK</option>
+                                        <option value="FIB">FIDELITY BANK</option>
+                                        <option value="FCMB">FIRST CITY MONUMENT BANK</option>
+                                        <option value="FBN">FIRST BANK</option>
+                                        <option value="GTB">GUARANTEE TRUST BANK</option>
+                                        <option value="UBN">UNION BANK</option>
+                                        <option value="UBA">UNITED BANK OF AFRICA</option>
+                                        <option value="ZNB">ZENITH BANK</option>
+                                        <option value="EBN">ECOBANK OF NIGERIA</option>
+                                        <option value="IBTC">STAMBIC IBTC BANK</option>
+                                        <option value="SBP">STERLING BANK</option>
+                                        <option value="WBP">WEMA BANK</option>
+                                        <option value="KMB">KUDA BANK</option>
+                                </select> 
                     
+                                <br>
+
+                            <label for="Bank Account Number">Enter Account Number:</label>
+                                <input id="Bank Account Number" name="Bank Account Number" 
+                                    inputmode="numeric"  maxlength="10" required />
+                                        <br>
+
+                            <label for="Mobile Number">Mobile <u>No</u> (opt):</label>
+                                <input id="Mobile Number" name="Mobile Number" inputmode="numeric" 
+                                        maxlength="15" />
+
                                     <br>
 
-                        <label for="Bank Account Number">Enter Account Number:</label>
-                            <input id="Bank Account Number" name="Bank Account Number" autocomplete="Bank Account Number" inputmode="numeric"  maxlength="40" required></input>
+                                        <a href="#"><button class="btnn">Search</button></a>
+                    </div>
+                               
+                </div>
 
+            <div class="end">
+                    <h2>kindly subscribe for our newsletter for latest Gift Card price update.</h2>                        
+                        <input
+                            class="email"
+                            type="email"
+                            name="email"
+                            placeholder="Enter Email Here"      
+                         />
+                     <br>
+                         <a href="#"><button class="btnon">subscribe</button></a>
+
+            </div>
+ 
+                <div class="support">
+                   <p>kindly support and donate to us BTC address:</p>
+                        <input id="adress" 
+                          type="address" readonly="" 
+                          spellcheck="false" 
+                          class="address" 
+                          value="bc1q4pdwjpl0hhan3ecky3srh3syxn7hz5r5vckytg"
+                        />
+                </div>
+ 
+                <footer class="memo">
+                    <ul>
+                        <li>
+                            <a href="#">English(UK)</a>
+                            <a href="#">Hausa</a>
+                            <a href="#">Francais[france]</a>
+                            <a href="#">Portuguese[Brasil]</a>
+                            <a href="#">Espanol</a>
+                            <a href="#">indonesia</a>
+                            <a href="#">Deutsche</a>
+                            <a href="#">Italian</a>
+                        </li>
+                    </ul>
+                    <ul>
+ 
+                    <ul>
+                        <li>
+                            <a href="#">Facebook</a>
+                            <a href="#">Twitter</a>
+                            <a href="#">Instagram</a>
+                            <a href="#">Sign Up</a>
+                            <a href="#">Log in</a>
+                            <a href="#">Watch</a>
+                            <a href="#">Places</a>
+                            <a href="#">Games</a>
+                            <a href="#">Marketplace</a>
+                            <a href="#">Oculus</a>
+                            <a href="#">Portal</a>
+                            <a href="#">Bulletin</a>
+                            <a href="#">Local</a>
                                 <br>
-
-                            <label for="Mobile Number">Mobile Number(opt):</label>
-
-                            <input id="Mobile Number" name="Mobile Number" inputmode="numeric" 
-                                maxlength="15"></input>
-
-                    </section>
-
-                            <button class="cn"><a href="#">Submit details</a></button>
-
-                </form>
-
-                <form class="form">
-                    <h3>
-                        kindly subscribe for our newsletter for latest Gift Card price update.
-                    </h3>
-                                <input type="email" name="email" placeholder="Enter Email here" required>
+                            <a href="#">Fundraisers</a>
+                            <a href="#">Services</a>b
+                            <a href="#">Groups</a>
+                            <a href="#">About</a>
+                            <a href="#">Create ad</a>
+                            <a href="#">Create Page</a>
+                            <a href="#">Developers</a>
+                            <a href="#">Privacy</a>
+                            <a href="#">Cookies</a>
+                            <a href="#">AdChoices</a>
                                 <br>
+                            <a href="#">Terms</a>
+                            <a href="#">Help</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <span>Meta @ 2022</span>
+                        </li>
+                    </ul>
+     </footer>
 
-                            <button class="btnn"><a href="#">subscribe</a></button>
-                            
-                </form>
-        
-            </main>
-
+        </div>
     </body>
-</html.>
+</html>

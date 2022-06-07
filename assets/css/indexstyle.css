@@ -7,7 +7,7 @@
     background-image: linear-gradient(to top, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.8) 50%), url(../images/card2.jfif);
     background-position: center;
     background-size: cover;
-    height: 155vh;
+    height: 160vh;
 }
 .moves{
     color: rgb(255, 0, 0);
@@ -23,10 +23,9 @@
 }
 .moves a:hover{
     color: rgb(255, 0, 0);
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 .logo{
-   
     font-size: 36px;
     font-family: Arial;
     font-weight: bold;
@@ -97,7 +96,7 @@
 }
 .btn:hover{
     color: #fff;
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 .content h2{
     color: wheat;  
