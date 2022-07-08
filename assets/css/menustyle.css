@@ -1,8 +1,12 @@
 *
 {
-    background-color:rgb(3, 23, 34);
+    background-image: url(../images/card3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: white;
     margin: 15px;
+    height: 100%;
 }
 .full-page
 {
